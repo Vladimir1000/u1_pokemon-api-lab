@@ -1,0 +1,55 @@
+body {
+    background-image: linear-gradient(to left, #010409, #00171d, #002423, #02301b, #2a3908);
+    
+}
+form {
+    display: flex;
+    justify-content: center;
+    padding: 10%;
+}
+
+section {
+    background-image: linear-gradient(to left, #063412, #0e3911, #163d0f, #1e420c, #264609);
+    border-radius: 15%;
+    max-width: 40%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    padding: 2.5%;
+}  
+
+#pokemonName {
+    color: antiquewhite;
+    font-family: cursive, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+span{
+    display: flex;
+    justify-content: center;
+}
+
+#pokemonDisplay {
+    color: antiquewhite;
+    font-family: 'Courier New', Courier, monospace;
+    margin: auto;
+    padding-top: 5em;
+    max-width: fit-content;
+    
+}
+#pokemonAbilities {
+    color: antiquewhite;
+    font-family: 'Courier New', Courier, monospace;
+    margin: auto;
+    padding-top: 1em;
+    max-width: fit-content;
+}
+#weight {
+    color: antiquewhite;
+    font-family: 'Courier New', Courier, monospace;
+    margin: auto;
+    padding-top: 1em;
+    max-width: fit-content;
+}
